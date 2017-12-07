@@ -1,0 +1,50 @@
+<?php 
+include_once("index.php");
+?>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Verstka</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/regist style.css">
+  <link rel="stylesheet" type="text/css" href="Slick/slick-1.5.9/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="Slick/slick-1.5.9/slick/slick-theme.css">
+</head>
+  <body>
+
+<header><br><br>
+<a class="header_txt">Нa глaвнyю</a>
+<a class="header_txt">Зaдaчи</a>
+<a class="header_txt">Пoдгoтовкa</a>
+<a class="header_txt">Кyрсы</a>
+<a class="header_txt">Об прoгрaммe</a>
+</header><br>
+<!--WHALTER>WHITE www.metwan.net-->
+
+
+<center><div class="form"><br>
+<span id="form_txt" class="form_txt">Регистрация</span>
+<form class="enter" action="http://alekseev700.esy.es/index.php" method="post">
+<a class="form_txt first">Email: </a><input class="edit" type="text" name="Email" value=""><br>
+<a class="form_txt second">Логин: </a><input class="edit" type="text" name="Login" value=""><br>
+<a class="form_txt">Пароль: </a><input class="edit" type="password" name="Password" value=""><br><br><br>
+<!--<a class="submit_button" type="submit">Зарегистрироваться</a>-->
+<button type="submit" name="button" class="regist">Pегистрация</button>
+</form>
+</div></center>
+<!--WHALTER>WHITE www.metwan.net-->
+
+
+<div class="vk_btn">Войти через ВК</div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script text="javascript">
+     var url = window.location;
+     if (url == "http://alekseev700.esy.es/regist.html?error"){
+     	document.getElementById("form_txt").innerHTML="Неверный логин или пароль";
+     }
+     else{
+     	document.getElementById("form_txt").innerHTML="Регистрация";
+     }
+  </script>
+  </body>
+</html>

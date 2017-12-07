@@ -1,0 +1,453 @@
+body{
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+header{
+  width: auto;
+  height: 100px;
+  background: white;
+  margin: auto;
+  border: 3px solid rgb(255, 0, 0);
+  display: flex;
+  overflow-x: hidden;
+}
+.split{
+  font-size: 20;
+  color:  black;
+  text-decoration: none;
+}
+.headertext{
+font-size: 30;
+color: black;
+  margin-left: 6%;
+text-decoration: none;
+line-height: 100px;
+transition: opacity 1s;
+}
+.headertext:hover{
+  opacity: 0.5;
+}
+.search{
+  width: 64px;
+  height: 64px;
+  background-color: #fff;
+  background-size: cover;
+  background-image: url(../photo/search1.png);
+  margin-top: 18px;
+  margin-left: 8%;
+
+}
+.menu{
+  justify-content: space-between;
+  width: 96%;
+  height: 100px;
+  line-height: 100px;
+}
+.layer{
+position: fixed;
+width: 100%;
+height: 100%;
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.5);
+border: 2px solid rgb(0, 0, 0);
+display: none;
+top: 0;
+z-index: 100;
+}
+.edit{
+font-size: 20;
+margin: auto;
+margin-top: 25%;
+width: 85%;
+height: 50px;
+border: none;
+border: 3px solid white;
+background: transparent;
+color: white;
+background-size: cover;
+}
+.button{
+font-size: 20;
+margin-top: 25%;
+height: 50px;
+border: none;
+border: 3px solid white;
+background: transparent;
+color: white;
+transition: opacity 0.5s;
+}
+.button:hover{
+  opacity: 0.5;
+}
+.close{
+    display: flex;
+    color: white;
+    font-size: 40;
+    float: right;
+    transition: opacity 1s;
+    margin: auto;
+}
+.close:hover{
+  opacity: 0.5;
+}
+.header{
+  width: auto;
+  height: 100px;
+  background: white;
+  margin: auto;
+  margin-top: 7%;
+  border: 3px solid rgb(0, 0, 0);
+  display: flex;
+}
+.gallery{
+  width: auto;
+  height: auto;
+  margin: auto;
+  margin-top: 5%;
+  border: 3px solid rgb(0, 0, 0);
+}
+.photo{
+  width: 666px;
+  height: 666px;
+  display:inline-block;
+  -webkit-transition-duration: 0.6s;
+  -moz-transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+  z-index: 1;
+  margin: 0;
+  position: relative;
+}
+.photo:active{
+  -webkit-transform: scale( 1.5 );
+  -moz-transform: scale( 1.5 );
+  -o-transform: scale( 1.5 );
+  box-shadow: 0px 0px 25px gray;
+  -webkit-box-shadow: 0px 0px 25px gray;
+  -moz-box-shadow: 0px 0px 25px gray;
+  opacity: 1;
+  z-index: 10;
+}
+
+.Img-1{
+    background-image: url(../photo/milan/1.jpg);
+}
+.Img-2{
+    background-image: url(../photo/milan/2.jpg);
+}
+.Img-3{
+    background-image: url(../photo/milan/3.jpg);
+}
+.Img-4{
+    background-image: url(../photo/milan/4.jpg);
+}
+.Img-5{
+    background-image: url(../photo/milan/5.jpg);
+}
+.Img-6{
+    background-image: url(../photo/milan/6.jpg);
+}
+.Img-7{
+    background-image: url(../photo/milan/7.jpg);
+}
+.Img-8{
+    background-image: url(../photo/milan/8.jpg);
+}
+.Img-9{
+    background-image: url(../photo/milan/9.jpg);
+}
+.Img-10{
+    background-image: url(../photo/milan/10.jpg);
+}
+.Img-11{
+    background-image: url(../photo/milan/11.jpg);
+}
+.Img-12{
+    background-image: url(../photo/milan/12.jpg);
+}
+.Img-13{
+    background-image: url(../photo/milan/13.jpg);
+}
+.Img-14{
+    background-image: url(../photo/milan/14.jpg);
+}
+.Img-15{
+    background-image: url(../photo/milan/15.jpg);
+}
+.Img-16{
+    background-image: url(../photo/milan/16.jpg);
+}
+.Img-17{
+    background-image: url(../photo/milan/17.jpg);
+}
+.Img-18{
+    background-image: url(../photo/milan/18.jpg);
+}
+.Img-19{
+    background-image: url(../photo/milan/19.jpg);
+}
+.Img-20{
+    background-image: url(../photo/milan/20.jpg);
+}
+.Img-21{
+    background-image: url(../photo/milan/21.jpg);
+}
+.Img-22{
+    background-image: url(../photo/milan/22.jpg);
+}
+.Img-23{
+    background-image: url(../photo/milan/23.jpg);
+}
+.Img-24{
+    background-image: url(../photo/milan/24.jpg);
+}
+.Img-25{
+    background-image: url(../photo/milan/25.jpg);
+}
+.Img-26{
+    background-image: url(../photo/milan/26.jpg);
+}
+.Img-27{
+    background-image: url(../photo/milan/27.jpg);
+}
+.Img-28{
+    background-image: url(../photo/milan/28.jpg);
+}
+.Img-29{
+    background-image: url(../photo/milan/29.jpg);
+}
+.Img-30{
+    background-image: url(../photo/milan/30.jpg);
+}
+.Img-31{
+    background-image: url(../photo/milan/31.jpg);
+}
+.Img-32{
+    background-image: url(../photo/milan/32.jpg);
+}
+.Img-33{
+    background-image: url(../photo/milan/33.jpg);
+}
+.Img-34{
+    background-image: url(../photo/milan/34.jpg);
+}
+.Img-35{
+    background-image: url(../photo/milan/35.jpg);
+}
+.Img-36{
+    background-image: url(../photo/milan/36.jpg);
+}
+.Img-37{
+    background-image: url(../photo/milan/37.jpg);
+}
+.Img-38{
+    background-image: url(../photo/milan/38.jpg);
+}
+.Img-39{
+    background-image: url(../photo/milan/39.jpg);
+}
+.Img-40{
+    background-image: url(../photo/milan/40.jpg);
+}
+.Img-41{
+    background-image: url(../photo/milan/41.jpg);
+}
+.Img-42{
+    background-image: url(../photo/milan/42.jpg);
+}
+.Img-43{
+    background-image: url(../photo/milan/43.jpg);
+}
+.Img-44{
+    background-image: url(../photo/milan/44.jpg);
+}
+.Img-45{
+    background-image: url(../photo/milan/45.jpg);
+}
+.Img-46{
+    background-image: url(../photo/milan/46.jpg);
+}
+.Img-47{
+    background-image: url(../photo/milan/47.jpg);
+}
+.Img-48{
+    background-image: url(../photo/milan/48.jpg);
+}
+.Img-49{
+    background-image: url(../photo/milan/49.jpg);
+}
+.Img-50{
+    background-image: url(../photo/milan/50.jpg);
+}
+.Img-51{
+    background-image: url(../photo/milan/51.jpg);
+}
+.Img-52{
+    background-image: url(../photo/milan/52.jpg);
+}
+.Img-53{
+    background-image: url(../photo/milan/53.jpg);
+}
+.Img-54{
+    background-image: url(../photo/milan/54.jpg);
+}
+.Img-55{
+    background-image: url(../photo/milan/55.jpg);
+}
+.Img-56{
+    background-image: url(../photo/milan/56.jpg);
+}
+.Img-57{
+    background-image: url(../photo/milan/57.jpg);
+}
+.Img-58{
+    background-image: url(../photo/milan/68.jpg);
+}
+.Img-59{
+    background-image: url(../photo/milan/59.jpg);
+}
+.Img-60{
+    background-image: url(../photo/milan/60.jpg);
+}
+.Img-61{
+    background-image: url(../photo/milan/61.jpg);
+}
+.Img-62{
+    background-image: url(../photo/milan/62.jpg);
+}
+.Img-63{
+    background-image: url(../photo/milan/63.jpg);
+}
+.Img-64{
+    background-image: url(../photo/milan/64.jpg);
+}
+.Img-65{
+    background-image: url(../photo/milan/65.jpg);
+}
+.Img-66{
+    background-image: url(../photo/milan/66.jpg);
+}
+.Img-67{
+    background-image: url(../photo/milan/67.jpg);
+}
+.Img-68{
+    background-image: url(../photo/milan/68.jpg);
+}
+.Img-69{
+    background-image: url(../photo/milan/69.jpg);
+}
+.Img-70{
+    background-image: url(../photo/milan/70.jpg);
+}
+.Img-71{
+    background-image: url(../photo/milan/71.jpg);
+}
+.Img-72{
+    background-image: url(../photo/milan/72.jpg);
+}
+.Img-73{
+    background-image: url(../photo/milan/73.jpg);
+}
+.Img-74{
+    background-image: url(../photo/milan/74.jpg);
+}
+.Img-75{
+    background-image: url(../photo/milan/75.jpg);
+}
+.Img-76{
+    background-image: url(../photo/milan/76.jpg);
+}
+.Img-77{
+    background-image: url(../photo/milan/77.jpg);
+}
+.Img-78{
+    background-image: url(../photo/milan/78.jpg);
+}
+.Img-79{
+    background-image: url(../photo/milan/79.jpg);
+}
+.Img-80{
+    background-image: url(../photo/milan/80.jpg);
+}
+.Img-81{
+    background-image: url(../photo/milan/81.jpg);
+}
+.Img-82{
+    background-image: url(../photo/milan/82.jpg);
+}
+.Img-83{
+    background-image: url(../photo/milan/83.jpg);
+}
+.Img-84{
+    background-image: url(../photo/milan/84.jpg);
+}
+.Img-85{
+    background-image: url(../photo/milan/85.jpg);
+}
+.Img-86{
+    background-image: url(../photo/milan/86.jpg);
+}
+.Img-87{
+    background-image: url(../photo/milan/87.jpg);
+}
+.Img-88{
+    background-image: url(../photo/milan/88.jpg);
+}
+.Img-89{
+    background-image: url(../photo/milan/89.jpg);
+}
+.Img-90{
+    background-image: url(../photo/milan/90.jpg);
+}
+.Img-91{
+    background-image: url(../photo/milan/91.jpg);
+}
+.Img-92{
+    background-image: url(../photo/milan/92.jpg);
+}
+.Img-93{
+    background-image: url(../photo/milan/93.jpg);
+}
+.Img-94{
+    background-image: url(../photo/milan/94.jpg);
+}
+.Img-95{
+    background-image: url(../photo/milan/95.jpg);
+}
+.Img-96{
+    background-image: url(../photo/milan/96.jpg);
+}
+.Img-97{
+    background-image: url(../photo/milan/97.jpg);
+}
+.Img-98{
+    background-image: url(../photo/milan/98.jpg);
+}
+.Img-99{
+    background-image: url(../photo/milan/99.jpg);
+}
+.Img-100{
+    background-image: url(../photo/milan/100.jpg);
+}
+.Img-101{
+    background-image: url(../photo/milan/101.jpg);
+}
+.Img-102{
+    background-image: url(../photo/milan/102.jpg);
+}
+.Img-103{
+    background-image: url(../photo/milan/103.jpg);
+}
+.Img-104{
+    background-image: url(../photo/milan/104.jpg);
+}
+.Img-105{
+    background-image: url(../photo/milan/105.jpg);
+}
+.Img-106{
+    background-image: url(../photo/milan/106.jpg);
+}
+.Img-107{
+    background-image: url(../photo/milan/107.jpg);
+}
+.Img-108{
+    background-image: url(../photo/milan/108.jpg);
+}

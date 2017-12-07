@@ -1,0 +1,36 @@
+<?php
+if (empty($_SESSION['login']) or empty($_SESSION['password'])) {
+    exit ("Доступ запрещен");
+}
+ 
+unset($_SESSION['password']);
+unset($_SESSION['login']); 
+unset($_SESSION['id']);// уничтожаем переменные в сессиях
+ 
+exit("<meta http-equiv='Refresh' content='0; URL=index.php'>");
+?>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Verstka</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="Slick/slick-1.5.9/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="Slick/slick-1.5.9/slick/slick-theme.css">
+</head>
+  <body>
+<!--WHALTER>WHITE www.metwan.net-->
+
+
+<header><br><br>
+<a class="header_txt">Нa глaвнyю</a>
+<a class="header_txt">Зaдaчи</a>
+<a class="header_txt">Пoдгoтовкa</a>
+<a class="header_txt">Кyрсы</a>
+<a class="header_txt">Об прoгрaммe</a>
+<span class="login">Alex</span>
+</header><br>
+<!--WHALTER>WHITE www.metwan.net-->
+</div></center>
+  </body>
+</html>

@@ -1,0 +1,1 @@
+wh = input().split()

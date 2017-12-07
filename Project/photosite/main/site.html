@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>photograph</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <link rel="stylesheet" type="text/css" href="Slick/slick-1.5.9/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="Slick/slick-1.5.9/slick/slick-theme.css">
+</head>
+<body>
+<header>
+  <div class="menu">
+  <a href="" class="headertext">Main</a>
+  <a href="" class="headertext">All photos</a>
+  <a href="" class="headertext">Categories</a>
+  <a href="" class="headertext">Library</a>
+  <a href="" class="headertext">About</a>
+  </div>
+<div class="search"></div>
+</header>
+<section class="main">
+<div class="head">
+<div class="opacity">
+<a href="" class="text">Mikhail Alekseev</a><br>
+<a href="" class="text">Present...</a>
+</div>
+<div class="headerphoto"></div>
+</div>
+<div class="news">
+<a href="" class="text Headernews">A Mikhail Alekseev exhibition: "Tuscany out of time"</a>
+<section class="slider">
+<div class="sliderImg slider-1"></div>
+<div class="sliderImg slider-2"></div>
+<div class="sliderImg slider-3"></div>
+<div class="sliderImg slider-1"></div>
+<div class="sliderImg slider-2"></div>
+<div class="sliderImg slider-3"></div>
+</section>
+<div class="box">
+<a href="" class="text comment">"Moscow Multimedia Art Museum presents an Mikhail Alekseyev exhibition: "Tuscany out of time ". Tuscany - it is a paradise that is known to everyone who has ever been there, and it will find those who will meet with Mikhail Alekseev photos. Tuscany -The place where now experienced particularly acute. the surrounding area is so perfectly and harmoniously, that the world beyond the borders of this area of ​​Italy seemed to cease to exist. it is important to only what is happening here and now. In this Tuscan perfection is experienced as something timeless... "</a>
+</div>
+</div>
+</section>
+<center><a class="split">Михаил Алексеев | Фотограф</a><br>
+<a class="split">© 2016 | Россия, г. Москва</a></center>
+<section>
+    <div class="layer">
+    <div class="close">X</div>
+      <center><form method="get" action="/search" target="_blank">
+      <input name="q" id="form-query" value="" placeholder="Поиск..." class="edit"> <button class="button">Найти</button></form></center>
+    </div>
+</section>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+  <script type="text/javascript" src="Slick/slick-1.5.9/slick/slick.min.js"></script>
+  <script>
+  $(document).ready(function(){
+    $('.search').on('click', function(){
+    $('.layer').fadeIn();
+    });
+    $('.close').on('click', function(){
+    $('.layer').fadeOut();
+    });
+    $('.slider').slick();
+    });
+    $('.slider').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      autoplay: true,
+      autoplaySpeed: 2000,
+    });
+  </script>
+</body>
+</html>

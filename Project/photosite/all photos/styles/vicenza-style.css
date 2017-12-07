@@ -1,0 +1,309 @@
+body{
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+header{
+  width: auto;
+  height: 100px;
+  background: white;
+  margin: auto;
+  border: 3px solid rgb(255, 0, 0);
+  display: flex;
+  overflow-x: hidden;
+}
+.split{
+  font-size: 20;
+  color:  black;
+  text-decoration: none;
+}
+.headertext{
+font-size: 30;
+color: black;
+  margin-left: 6%;
+text-decoration: none;
+line-height: 100px;
+transition: opacity 1s;
+}
+.headertext:hover{
+  opacity: 0.5;
+}
+.search{
+  width: 64px;
+  height: 64px;
+  background-color: #fff;
+  background-size: cover;
+  background-image: url(../photo/search1.png);
+  margin-top: 18px;
+  margin-left: 8%;
+
+}
+.menu{
+  justify-content: space-between;
+  width: 96%;
+  height: 100px;
+  line-height: 100px;
+}
+.layer{
+position: fixed;
+width: 100%;
+height: 100%;
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.5);
+border: 2px solid rgb(0, 0, 0);
+display: none;
+top: 0;
+z-index: 100;
+}
+.edit{
+font-size: 20;
+margin: auto;
+margin-top: 25%;
+width: 85%;
+height: 50px;
+border: none;
+border: 3px solid white;
+background: transparent;
+color: white;
+background-size: cover;
+}
+.button{
+font-size: 20;
+margin-top: 25%;
+height: 50px;
+border: none;
+border: 3px solid white;
+background: transparent;
+color: white;
+transition: opacity 0.5s;
+}
+.button:hover{
+  opacity: 0.5;
+}
+.close{
+    display: flex;
+    color: white;
+    font-size: 40;
+    float: right;
+    transition: opacity 1s;
+    margin: auto;
+}
+.close:hover{
+  opacity: 0.5;
+}
+.header{
+  width: auto;
+  height: 100px;
+  background: white;
+  margin: auto;
+  margin-top: 7%;
+  border: 3px solid rgb(0, 0, 0);
+  display: flex;
+}
+.gallery{
+  width: auto;
+  height: auto;
+  margin: auto;
+  margin-top: 5%;
+  border: 3px solid rgb(0, 0, 0);
+}
+.photo{
+  width: 666px;
+  height: 666px;
+  display:inline-block;
+  -webkit-transition-duration: 0.6s;
+  -moz-transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+  z-index: 1;
+  margin: 0;
+  position: relative;
+}
+.photo:active{
+  -webkit-transform: scale( 1.5 );
+  -moz-transform: scale( 1.5 );
+  -o-transform: scale( 1.5 );
+  box-shadow: 0px 0px 25px gray;
+  -webkit-box-shadow: 0px 0px 25px gray;
+  -moz-box-shadow: 0px 0px 25px gray;
+  opacity: 1;
+  z-index: 10;
+}
+
+.Img-1{
+    background-image: url(../photo/vicenza/1.jpg);
+}
+.Img-2{
+    background-image: url(../photo/vicenza/2.jpg);
+}
+.Img-3{
+    background-image: url(../photo/vicenza/3.jpg);
+}
+.Img-4{
+    background-image: url(../photo/vicenza/4.jpg);
+}
+.Img-5{
+    background-image: url(../photo/vicenza/5.jpg);
+}
+.Img-6{
+    background-image: url(../photo/vicenza/6.jpg);
+}
+.Img-7{
+    background-image: url(../photo/vicenza/7.jpg);
+}
+.Img-8{
+    background-image: url(../photo/vicenza/8.jpg);
+}
+.Img-9{
+    background-image: url(../photo/vicenza/9.jpg);
+}
+.Img-10{
+    background-image: url(../photo/vicenza/10.jpg);
+}
+.Img-11{
+    background-image: url(../photo/vicenza/11.jpg);
+}
+.Img-12{
+    background-image: url(../photo/vicenza/12.jpg);
+}
+.Img-13{
+    background-image: url(../photo/vicenza/13.jpg);
+}
+.Img-14{
+    background-image: url(../photo/vicenza/14.jpg);
+}
+.Img-15{
+    background-image: url(../photo/vicenza/15.jpg);
+}
+.Img-16{
+    background-image: url(../photo/vicenza/16.jpg);
+}
+.Img-17{
+    background-image: url(../photo/vicenza/17.jpg);
+}
+.Img-18{
+    background-image: url(../photo/vicenza/18.jpg);
+}
+.Img-19{
+    background-image: url(../photo/vicenza/19.jpg);
+}
+.Img-20{
+    background-image: url(../photo/vicenza/20.jpg);
+}
+.Img-21{
+    background-image: url(../photo/vicenza/21.jpg);
+}
+.Img-22{
+    background-image: url(../photo/vicenza/22.jpg);
+}
+.Img-23{
+    background-image: url(../photo/vicenza/23.jpg);
+}
+.Img-24{
+    background-image: url(../photo/vicenza/24.jpg);
+}
+.Img-25{
+    background-image: url(../photo/vicenza/25.jpg);
+}
+.Img-26{
+    background-image: url(../photo/vicenza/26.jpg);
+}
+.Img-27{
+    background-image: url(../photo/vicenza/27.jpg);
+}
+.Img-28{
+    background-image: url(../photo/vicenza/28.jpg);
+}
+.Img-29{
+    background-image: url(../photo/vicenza/29.jpg);
+}
+.Img-30{
+    background-image: url(../photo/vicenza/30.jpg);
+}
+.Img-31{
+    background-image: url(../photo/vicenza/31.jpg);
+}
+.Img-32{
+    background-image: url(../photo/vicenza/32.jpg);
+}
+.Img-33{
+    background-image: url(../photo/vicenza/33.jpg);
+}
+.Img-34{
+    background-image: url(../photo/vicenza/34.jpg);
+}
+.Img-35{
+    background-image: url(../photo/vicenza/35.jpg);
+}
+.Img-36{
+    background-image: url(../photo/vicenza/36.jpg);
+}
+.Img-37{
+    background-image: url(../photo/vicenza/37.jpg);
+}
+.Img-38{
+    background-image: url(../photo/vicenza/38.jpg);
+}
+.Img-39{
+    background-image: url(../photo/vicenza/39.jpg);
+}
+.Img-40{
+    background-image: url(../photo/vicenza/40.jpg);
+}
+.Img-41{
+    background-image: url(../photo/vicenza/41.jpg);
+}
+.Img-42{
+    background-image: url(../photo/vicenza/42.jpg);
+}
+.Img-43{
+    background-image: url(../photo/vicenza/43.jpg);
+}
+.Img-44{
+    background-image: url(../photo/vicenza/44.jpg);
+}
+.Img-45{
+    background-image: url(../photo/vicenza/45.jpg);
+}
+.Img-46{
+    background-image: url(../photo/vicenza/46.jpg);
+}
+.Img-47{
+    background-image: url(../photo/vicenza/47.jpg);
+}
+.Img-48{
+    background-image: url(../photo/vicenza/48.jpg);
+}
+.Img-49{
+    background-image: url(../photo/vicenza/49.jpg);
+}
+.Img-50{
+    background-image: url(../photo/vicenza/50.jpg);
+}
+.Img-51{
+    background-image: url(../photo/vicenza/51.jpg);
+}
+.Img-52{
+    background-image: url(../photo/vicenza/52.jpg);
+}
+.Img-53{
+    background-image: url(../photo/vicenza/53.jpg);
+}
+.Img-54{
+    background-image: url(../photo/vicenza/54.jpg);
+}
+.Img-55{
+    background-image: url(../photo/vicenza/55.jpg);
+}
+.Img-56{
+    background-image: url(../photo/vicenza/56.jpg);
+}
+.Img-57{
+    background-image: url(../photo/vicenza/57.jpg);
+}
+.Img-58{
+    background-image: url(../photo/vicenza/58.jpg);
+}
+.Img-59{
+    background-image: url(../photo/vicenza/59.jpg);
+}
+.Img-60{
+    background-image: url(../photo/vicenza/60.jpg);
+}

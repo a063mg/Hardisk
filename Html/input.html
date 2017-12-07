@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<style type="text/css">
+		.input{
+			width: 248px;
+			height: 48px;
+			font-size: 18px;
+			margin: auto;
+			margin-top: 20px;
+			display: block;
+			cursor: pointer;
+			padding: 5px 8px;
+			border: 2px solid rgb(105, 105, 105);
+			border-radius: 0;
+			background: white;
+			transition: border 1s;
+			color: black;
+			height: auto;
+			resize: none;
+		}
+		.input:hover{
+			border: 2px solid rgb(10, 160, 255);
+		}
+		.form{
+			margin: auto;
+			margin-top: 50px;
+			width: 450px;
+			border: 2px solid black;
+			height: auto;
+		}
+		.input:last-child{
+			margin-bottom: 20px;
+		}
+		.debug-text{
+			margin-top: 15px;
+			text-decoration: none;
+			font-size: 25px;
+			margin: auto;
+			color: black;
+			cursor: pointer;
+		}
+		.text{
+			text-decoration: none;
+			font-size: 22px;
+			color: black;
+			cursor: pointer;
+			margin: auto;
+		}
+		.block{
+			margin: auto;
+			width: auto;
+			height: 100px;
+			font-size: 20px;
+			margin-top: 35px;
+			margin-bottom: 20px;
+		}
+		.t{
+			text-decoration: none;
+			font-size: 22px;
+			color: black;
+			cursor: pointer;
+		}
+		.button{
+			height: 39px;
+			width: 268px;
+			overflow: hidden;
+			margin-top: 15px;
+			margin-bottom: 15px;
+			outline: none;
+			border: 0;
+			opacity: 0.7;
+			background-color: rgb(225, 0, 0);
+			font: 300 13px/39px 'Open Sans', Helvetica, Arial, sans-serif;
+			text-decoration: none;
+			color: #fff;
+			cursor: pointer;
+			transition: background-color 1s;
+		}
+		.button:hover{
+			background-color: rgb(10, 160, 255);
+		}
+	</style>	
+</head>
+
+<body>
+	<form class="form" action="/form"> 
+		 <center><a href="" class="debug-text">Enter numbers:</a></center>
+		<input class="input" placeholder="First number" type="" name="" >
+		<input class="input" placeholder="Second number" type="" name="" >
+		<center><button class="button">Submit</button></center>
+	</form>
+	<center><div class="block">
+		<p href="" class="text">Open key:</p><p class="t"></p>
+		<p href="" class="text">Closed key:</p><p class="t"></p>
+    </div></center>
+</body>
+
+</html>

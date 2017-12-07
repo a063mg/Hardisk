@@ -1,0 +1,14 @@
+body {
+  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background-color: black;
+}
+.Page_not_found{
+	font-weight: 450;
+	font-size: 500%;
+	color: rgb(255, 255, 255);
+	text-decoration: none;
+	text-align: center;
+	cursor: pointer;
+	margin-top: 20%;
+}

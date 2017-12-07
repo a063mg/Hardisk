@@ -1,0 +1,126 @@
+header{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	line-height: 100px;
+}
+.header_text{
+	font-size: 40px;
+	text-decoration: none;
+	margin-left: 50px;
+	font-family: 'Raleway', sans-serif;
+	color: rgb(5, 0, 5);
+
+}
+.insta{
+	width: 50px;
+	height: 50px;
+	margin: auto;
+	float: right;
+	margin-right: 75px; 
+	margin-left: 50px;
+	vertical-align: center;
+	background-size: cover;
+	background-color: black;
+	margin-top: 25px;
+	transition: background-image 0.5s;
+	background-image: url('../photo/insta.png');
+}
+.insta:hover{
+	background-image: url('../photo/insta1.png');
+}
+
+.gallery{
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	height: auto;
+	border: 3px solid black;
+}
+.block{
+	
+
+}
+.photo{
+	margin: auto;
+	display: inline-block;
+	background-size: cover;
+	margin-top: 10px;
+	margin-right: 15px;
+	margin-left: 15px;
+	margin-bottom: 10px;
+	width: auto;
+	height: auto;
+}
+.layer{
+	width: 300px;
+	height: 300px;
+	background-color: rgba(0, 0, 0, 0.7);
+	transition: opacity 0.5s;
+	margin-top: 0;
+	z-index: 1;
+	opacity: 0;
+}
+.gallery_text{
+	margin: auto;
+	color: white;
+	text-decoration: none;
+	font-size: 30px;
+	line-height: 300px;
+	font-family: 'Raleway', sans-serif;
+}
+.image_container{
+	z-index: 1;
+	width: 50%;
+	line-height: 50%;
+	height: 50%;
+	margin: auto;
+	margin-top: 20%;
+	display: table;
+	background-color: black;
+}
+.background_layer{
+	display: none;
+	position: absolute;
+	top: 0;
+	width: 100%;
+	text-align: center;
+	line-height: 100%;
+	height: 100%;
+	background-color: rgba(0, 0, 0, 0.5);
+	z-index: 1;
+}
+.image{
+	margin: auto;
+	background-size: cover;
+	width: auto;
+	color: white;
+	height: 100%;
+}
+.photo:hover .layer{
+	opacity: 1;
+}
+.img{
+	width: 300px;
+	height: 300px;
+	background-size: cover;	
+}
+
+.one{
+	background-image: url('../photo/photo1.jpg');
+}
+.two{
+	background-image: url('../photo/photo2.jpg');
+}
+.three{
+	background-image: url('../photo/photo3.jpg');
+}
+.four{
+	background-image: url('../photo/photo4.jpg');
+}
+.five{
+	background-image: url('../photo/photo5.jpg');
+}
+.six{
+	background-image: url('../photo/photo6.jpg');
+}

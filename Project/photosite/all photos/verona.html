@@ -1,0 +1,73 @@
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>photograph</title>
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/verona-style.css">
+  <link rel="stylesheet" type="text/css" href="Slick/slick-1.5.9/slick/slick.css">
+  <link rel="stylesheet" type="text/css" href="Slick/slick-1.5.9/slick/slick-theme.css">
+</head>
+<body>
+  <header>
+    <div class="menu">
+    <a href="" class="headertext">Main</a>
+    <a href="" class="headertext">All photos</a>
+    <a href="" class="headertext">Categories</a>
+    <a href="" class="headertext">Library</a>
+    <a href="" class="headertext">About</a>
+    </div>
+    <div class="search"></div>
+  </header>
+
+  <div class="header">
+    <a href="" class="headertext">Rome</a>
+    <a href="" class="headertext">Verona</a>
+    <a href="" class="headertext">Venice</a>
+    <a href="" class="headertext">Milan</a>
+    <a href="" class="headertext">Perugia</a>
+    <a href="" class="headertext">Vicenza</a>
+  </div>
+  <center><a href="" class="headertext">Verona</a></center>
+  <center><div class="gallery">
+   <div class="photo Img-1"></div>
+   <div class="photo Img-2"></div>
+   <div class="photo Img-3"></div>
+   <div class="photo Img-4"></div>
+   <div class="photo Img-5"></div>
+   <div class="photo Img-6"></div>
+   <div class="photo Img-7"></div>
+   <div class="photo Img-8"></div>
+   <div class="photo Img-9"></div>
+   <div class="photo Img-10"></div>
+   <div class="photo Img-11"></div>
+   <div class="photo Img-12"></div>
+   <div class="photo Img-13"></div>
+   <div class="photo Img-14"></div>
+   <div class="photo Img-15"></div>
+   <div class="photo Img-16"></div>
+   <div class="photo Img-17"></div>
+   <div class="photo Img-18"></div>
+</div></center>
+<center><a class="split">Михаил Алексеев | Фотограф</a><br>
+<a class="split">© 2016 | Россия, г. Москва</a></center>
+  <section>
+      <div class="layer">
+      <div class="close">X</div>
+        <center><form method="get" action="/search" target="_blank">
+        <input name="q" id="form-query" value="" placeholder="Поиск..." class="edit"> <button class="button">Найти</button></form></center>
+      </div>
+  </section>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script type="text/javascript" src="Slick/slick-1.5.9/slick/slick.min.js"></script>
+<script>
+$(document).ready(function(){
+  $('.search').on('click', function(){
+  $('.layer').fadeIn();
+  });
+  $('.close').on('click', function(){
+  $('.layer').fadeOut();
+  });
+  });
+</script>
+</body>
+</html>

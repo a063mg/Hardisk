@@ -1,0 +1,960 @@
+body{
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+}
+header{
+  width: auto;
+  height: 100px;
+  background: white;
+  margin: auto;
+  border: 3px solid rgb(255, 0, 0);
+  display: flex;
+  overflow-x: hidden;
+}
+.split{
+  font-size: 20;
+  color:  black;
+  text-decoration: none;
+}
+.headertext{
+font-size: 30;
+color: black;
+  margin-left: 6%;
+text-decoration: none;
+line-height: 100px;
+transition: opacity 1s;
+}
+.headertext:hover{
+  opacity: 0.5;
+}
+.search{
+  width: 64px;
+  height: 64px;
+  background-color: #fff;
+  background-size: cover;
+  background-image: url(../photo/search1.png);
+  margin-top: 18px;
+  margin-left: 8%;
+
+}
+.menu{
+  justify-content: space-between;
+  width: 96%;
+  height: 100px;
+  line-height: 100px;
+}
+.layer{
+position: fixed;
+width: 100%;
+height: 100%;
+background-size: cover;
+background-color: rgba(0, 0, 0, 0.5);
+border: 2px solid rgb(0, 0, 0);
+display: none;
+top: 0;
+z-index: 100;
+}
+.edit{
+font-size: 20;
+margin: auto;
+margin-top: 25%;
+width: 85%;
+height: 50px;
+border: none;
+border: 3px solid white;
+background: transparent;
+color: white;
+background-size: cover;
+}
+.button{
+font-size: 20;
+margin-top: 25%;
+height: 50px;
+border: none;
+border: 3px solid white;
+background: transparent;
+color: white;
+transition: opacity 0.5s;
+}
+.button:hover{
+  opacity: 0.5;
+}
+.close{
+    display: flex;
+    color: white;
+    font-size: 40;
+    float: right;
+    transition: opacity 1s;
+    margin: auto;
+}
+.close:hover{
+  opacity: 0.5;
+}
+.header{
+  width: auto;
+  height: 100px;
+  background: white;
+  margin: auto;
+  margin-top: 7%;
+  border: 3px solid rgb(0, 0, 0);
+  display: flex;
+}
+.gallery{
+  width: auto;
+  height: auto;
+  margin: auto;
+  margin-top: 5%;
+  border: 3px solid rgb(0, 0, 0);
+}
+.photo{
+  width: 666px;
+  height: 666px;
+  display:inline-block;
+  -webkit-transition-duration: 0.6s;
+  -moz-transition-duration: 0.6s;
+  -o-transition-duration: 0.6s;
+  z-index: 1;
+  margin: 0;
+  position: relative;
+}
+.photo:active{
+  -webkit-transform: scale( 1.5 );
+  -moz-transform: scale( 1.5 );
+  -o-transform: scale( 1.5 );
+  box-shadow: 0px 0px 25px gray;
+  -webkit-box-shadow: 0px 0px 25px gray;
+  -moz-box-shadow: 0px 0px 25px gray;
+  opacity: 1;
+  z-index: 10;
+}
+
+.Img-1{
+    background-image: url(../photo/venice/1.jpg);
+}
+.Img-2{
+    background-image: url(../photo/venice/2.jpg);
+}
+.Img-3{
+    background-image: url(../photo/venice/3.jpg);
+}
+.Img-4{
+    background-image: url(../photo/venice/4.jpg);
+}
+.Img-5{
+    background-image: url(../photo/venice/5.jpg);
+}
+.Img-6{
+    background-image: url(../photo/venice/6.jpg);
+}
+.Img-7{
+    background-image: url(../photo/venice/7.jpg);
+}
+.Img-8{
+    background-image: url(../photo/venice/8.jpg);
+}
+.Img-9{
+    background-image: url(../photo/venice/9.jpg);
+}
+.Img-10{
+    background-image: url(../photo/venice/10.jpg);
+}
+.Img-11{
+    background-image: url(../photo/venice/11.jpg);
+}
+.Img-12{
+    background-image: url(../photo/venice/12.jpg);
+}
+.Img-13{
+    background-image: url(../photo/venice/13.jpg);
+}
+.Img-14{
+    background-image: url(../photo/venice/14.jpg);
+}
+.Img-15{
+    background-image: url(../photo/venice/15.jpg);
+}
+.Img-16{
+    background-image: url(../photo/venice/16.jpg);
+}
+.Img-17{
+    background-image: url(../photo/venice/17.jpg);
+}
+.Img-18{
+    background-image: url(../photo/venice/18.jpg);
+}
+.Img-19{
+    background-image: url(../photo/venice/19.jpg);
+}
+.Img-20{
+    background-image: url(../photo/venice/20.jpg);
+}
+.Img-21{
+    background-image: url(../photo/venice/21.jpg);
+}
+.Img-22{
+    background-image: url(../photo/venice/22.jpg);
+}
+.Img-23{
+    background-image: url(../photo/venice/23.jpg);
+}
+.Img-24{
+    background-image: url(../photo/venice/24.jpg);
+}
+.Img-25{
+    background-image: url(../photo/venice/25.jpg);
+}
+.Img-26{
+    background-image: url(../photo/venice/26.jpg);
+}
+.Img-27{
+    background-image: url(../photo/venice/27.jpg);
+}
+.Img-28{
+    background-image: url(../photo/venice/28.jpg);
+}
+.Img-29{
+    background-image: url(../photo/venice/29.jpg);
+}
+.Img-30{
+    background-image: url(../photo/venice/30.jpg);
+}
+.Img-31{
+    background-image: url(../photo/venice/31.jpg);
+}
+.Img-32{
+    background-image: url(../photo/venice/32.jpg);
+}
+.Img-33{
+    background-image: url(../photo/venice/33.jpg);
+}
+.Img-34{
+    background-image: url(../photo/venice/34.jpg);
+}
+.Img-35{
+    background-image: url(../photo/venice/35.jpg);
+}
+.Img-36{
+    background-image: url(../photo/venice/36.jpg);
+}
+.Img-37{
+    background-image: url(../photo/venice/37.jpg);
+}
+.Img-38{
+    background-image: url(../photo/venice/38.jpg);
+}
+.Img-39{
+    background-image: url(../photo/venice/39.jpg);
+}
+.Img-40{
+    background-image: url(../photo/venice/40.jpg);
+}
+.Img-41{
+    background-image: url(../photo/venice/41.jpg);
+}
+.Img-42{
+    background-image: url(../photo/venice/42.jpg);
+}
+.Img-43{
+    background-image: url(../photo/venice/43.jpg);
+}
+.Img-44{
+    background-image: url(../photo/venice/44.jpg);
+}
+.Img-45{
+    background-image: url(../photo/venice/45.jpg);
+}
+.Img-46{
+    background-image: url(../photo/venice/46.jpg);
+}
+.Img-47{
+    background-image: url(../photo/venice/47.jpg);
+}
+.Img-48{
+    background-image: url(../photo/venice/48.jpg);
+}
+.Img-49{
+    background-image: url(../photo/venice/49.jpg);
+}
+.Img-50{
+    background-image: url(../photo/venice/50.jpg);
+}
+.Img-51{
+    background-image: url(../photo/venice/51.jpg);
+}
+.Img-52{
+    background-image: url(../photo/venice/52.jpg);
+}
+.Img-53{
+    background-image: url(../photo/venice/53.jpg);
+}
+.Img-54{
+    background-image: url(../photo/venice/54.jpg);
+}
+.Img-55{
+    background-image: url(../photo/venice/55.jpg);
+}
+.Img-56{
+    background-image: url(../photo/venice/56.jpg);
+}
+.Img-57{
+    background-image: url(../photo/venice/57.jpg);
+}
+.Img-58{
+    background-image: url(../photo/venice/68.jpg);
+}
+.Img-59{
+    background-image: url(../photo/venice/59.jpg);
+}
+.Img-60{
+    background-image: url(../photo/venice/60.jpg);
+}
+.Img-61{
+    background-image: url(../photo/venice/61.jpg);
+}
+.Img-62{
+    background-image: url(../photo/venice/62.jpg);
+}
+.Img-63{
+    background-image: url(../photo/venice/63.jpg);
+}
+.Img-64{
+    background-image: url(../photo/venice/64.jpg);
+}
+.Img-65{
+    background-image: url(../photo/venice/65.jpg);
+}
+.Img-66{
+    background-image: url(../photo/venice/66.jpg);
+}
+.Img-67{
+    background-image: url(../photo/venice/67.jpg);
+}
+.Img-68{
+    background-image: url(../photo/venice/68.jpg);
+}
+.Img-69{
+    background-image: url(../photo/venice/69.jpg);
+}
+.Img-70{
+    background-image: url(../photo/venice/70.jpg);
+}
+.Img-71{
+    background-image: url(../photo/venice/71.jpg);
+}
+.Img-72{
+    background-image: url(../photo/venice/72.jpg);
+}
+.Img-73{
+    background-image: url(../photo/venice/73.jpg);
+}
+.Img-74{
+    background-image: url(../photo/venice/74.jpg);
+}
+.Img-75{
+    background-image: url(../photo/venice/75.jpg);
+}
+.Img-76{
+    background-image: url(../photo/venice/76.jpg);
+}
+.Img-77{
+    background-image: url(../photo/venice/77.jpg);
+}
+.Img-78{
+    background-image: url(../photo/venice/78.jpg);
+}
+.Img-79{
+    background-image: url(../photo/venice/79.jpg);
+}
+.Img-80{
+    background-image: url(../photo/venice/80.jpg);
+}
+.Img-81{
+    background-image: url(../photo/venice/81.jpg);
+}
+.Img-82{
+    background-image: url(../photo/venice/82.jpg);
+}
+.Img-83{
+    background-image: url(../photo/venice/83.jpg);
+}
+.Img-84{
+    background-image: url(../photo/venice/84.jpg);
+}
+.Img-85{
+    background-image: url(../photo/venice/85.jpg);
+}
+.Img-86{
+    background-image: url(../photo/venice/86.jpg);
+}
+.Img-87{
+    background-image: url(../photo/venice/87.jpg);
+}
+.Img-88{
+    background-image: url(../photo/venice/88.jpg);
+}
+.Img-89{
+    background-image: url(../photo/venice/89.jpg);
+}
+.Img-90{
+    background-image: url(../photo/venice/90.jpg);
+}
+.Img-91{
+    background-image: url(../photo/venice/91.jpg);
+}
+.Img-92{
+    background-image: url(../photo/venice/92.jpg);
+}
+.Img-93{
+    background-image: url(../photo/venice/93.jpg);
+}
+.Img-94{
+    background-image: url(../photo/venice/94.jpg);
+}
+.Img-95{
+    background-image: url(../photo/venice/95.jpg);
+}
+.Img-96{
+    background-image: url(../photo/venice/96.jpg);
+}
+.Img-97{
+    background-image: url(../photo/venice/97.jpg);
+}
+.Img-98{
+    background-image: url(../photo/venice/98.jpg);
+}
+.Img-99{
+    background-image: url(../photo/venice/99.jpg);
+}
+.Img-100{
+    background-image: url(../photo/venice/100.jpg);
+}
+.Img-101{
+    background-image: url(../photo/venice/101.jpg);
+}
+.Img-102{
+    background-image: url(../photo/venice/102.jpg);
+}
+.Img-103{
+    background-image: url(../photo/venice/103.jpg);
+}
+.Img-104{
+    background-image: url(../photo/venice/104.jpg);
+}
+.Img-105{
+    background-image: url(../photo/venice/105.jpg);
+}
+.Img-106{
+    background-image: url(../photo/venice/106.jpg);
+}
+.Img-107{
+    background-image: url(../photo/venice/107.jpg);
+}
+.Img-108{
+    background-image: url(../photo/venice/108.jpg);
+}
+.Img-109{
+    background-image: url(../photo/venice/109.jpg);
+}
+.Img-110{
+    background-image: url(../photo/venice/110.jpg);
+}
+.Img-111{
+    background-image: url(../photo/venice/111.jpg);
+}
+.Img-112{
+    background-image: url(../photo/venice/112.jpg);
+}
+.Img-113{
+    background-image: url(../photo/venice/113.jpg);
+}
+.Img-114{
+    background-image: url(../photo/venice/114.jpg);
+}
+.Img-115{
+    background-image: url(../photo/venice/115.jpg);
+}
+.Img-116{
+    background-image: url(../photo/venice/116.jpg);
+}
+.Img-117{
+    background-image: url(../photo/venice/117.jpg);
+}
+.Img-118{
+    background-image: url(../photo/venice/118.jpg);
+}
+.Img-119{
+    background-image: url(../photo/venice/119.jpg);
+}
+.Img-120{
+    background-image: url(../photo/venice/120.jpg);
+}
+.Img-121{
+    background-image: url(../photo/venice/121.jpg);
+}
+.Img-122{
+    background-image: url(../photo/venice/122.jpg);
+}
+.Img-123{
+    background-image: url(../photo/venice/123.jpg);
+}
+.Img-124{
+    background-image: url(../photo/venice/124.jpg);
+}
+.Img-125{
+    background-image: url(../photo/venice/125.jpg);
+}
+.Img-126{
+    background-image: url(../photo/venice/126.jpg);
+}
+.Img-127{
+    background-image: url(../photo/venice/127.jpg);
+}
+.Img-128{
+    background-image: url(../photo/venice/128.jpg);
+}
+.Img-129{
+    background-image: url(../photo/venice/129.jpg);
+}
+.Img-130{
+    background-image: url(../photo/venice/130.jpg);
+}
+.Img-131{
+    background-image: url(../photo/venice/131.jpg);
+}
+.Img-132{
+    background-image: url(../photo/venice/132.jpg);
+}
+.Img-133{
+    background-image: url(../photo/venice/133.jpg);
+}
+.Img-134{
+    background-image: url(../photo/venice/134.jpg);
+}
+.Img-135{
+    background-image: url(../photo/venice/135.jpg);
+}
+.Img-136{
+    background-image: url(../photo/venice/136.jpg);
+}
+.Img-137{
+    background-image: url(../photo/venice/137.jpg);
+}
+.Img-138{
+    background-image: url(../photo/venice/138.jpg);
+}
+.Img-139{
+    background-image: url(../photo/venice/139.jpg);
+}
+.Img-140{
+    background-image: url(../photo/venice/140.jpg);
+}
+.Img-141{
+    background-image: url(../photo/venice/141.jpg);
+}
+.Img-142{
+    background-image: url(../photo/venice/142.jpg);
+}
+.Img-143{
+    background-image: url(../photo/venice/143.jpg);
+}
+.Img-144{
+    background-image: url(../photo/venice/144.jpg);
+}
+.Img-145{
+    background-image: url(../photo/venice/145.jpg);
+}
+.Img-146{
+    background-image: url(../photo/venice/146.jpg);
+}
+.Img-147{
+    background-image: url(../photo/venice/147.jpg);
+}
+.Img-148{
+    background-image: url(../photo/venice/148.jpg);
+}
+.Img-149{
+    background-image: url(../photo/venice/149.jpg);
+}
+.Img-150{
+    background-image: url(../photo/venice/150.jpg);
+}
+.Img-151{
+    background-image: url(../photo/venice/151.jpg);
+}
+.Img-152{
+    background-image: url(../photo/venice/152.jpg);
+}
+.Img-153{
+    background-image: url(../photo/venice/153.jpg);
+}
+.Img-154{
+    background-image: url(../photo/venice/154.jpg);
+}
+.Img-155{
+    background-image: url(../photo/venice/155.jpg);
+}
+.Img-156{
+    background-image: url(../photo/venice/156.jpg);
+}
+.Img-157{
+    background-image: url(../photo/venice/157.jpg);
+}
+.Img-158{
+    background-image: url(../photo/venice/158.jpg);
+}
+.Img-159{
+    background-image: url(../photo/venice/159.jpg);
+}
+.Img-160{
+    background-image: url(../photo/venice/160.jpg);
+}
+.Img-161{
+    background-image: url(../photo/venice/161.jpg);
+}
+.Img-162{
+    background-image: url(../photo/venice/162.jpg);
+}
+.Img-163{
+    background-image: url(../photo/venice/163.jpg);
+}
+.Img-164{
+    background-image: url(../photo/venice/164.jpg);
+}
+.Img-165{
+    background-image: url(../photo/venice/165.jpg);
+}
+.Img-166{
+    background-image: url(../photo/venice/166.jpg);
+}
+.Img-167{
+    background-image: url(../photo/venice/167.jpg);
+}
+.Img-168{
+    background-image: url(../photo/venice/168.jpg);
+}
+.Img-169{
+    background-image: url(../photo/venice/169.jpg);
+}
+.Img-170{
+    background-image: url(../photo/venice/170.jpg);
+}
+.Img-171{
+    background-image: url(../photo/venice/171.jpg);
+}
+.Img-172{
+    background-image: url(../photo/venice/172.jpg);
+}
+.Img-173{
+    background-image: url(../photo/venice/173.jpg);
+}
+.Img-174{
+    background-image: url(../photo/venice/174.jpg);
+}
+.Img-175{
+    background-image: url(../photo/venice/175.jpg);
+}
+.Img-176{
+    background-image: url(../photo/venice/176.jpg);
+}
+.Img-177{
+    background-image: url(../photo/venice/177.jpg);
+}
+.Img-178{
+    background-image: url(../photo/venice/178.jpg);
+}
+.Img-179{
+    background-image: url(../photo/venice/179.jpg);
+}
+.Img-180{
+    background-image: url(../photo/venice/180.jpg);
+}
+.Img-181{
+    background-image: url(../photo/venice/181.jpg);
+}
+.Img-182{
+    background-image: url(../photo/venice/182.jpg);
+}
+.Img-183{
+    background-image: url(../photo/venice/183.jpg);
+}
+.Img-184{
+    background-image: url(../photo/venice/184.jpg);
+}
+.Img-185{
+    background-image: url(../photo/venice/185.jpg);
+}
+.Img-186{
+    background-image: url(../photo/venice/186.jpg);
+}
+.Img-187{
+    background-image: url(../photo/venice/187.jpg);
+}
+.Img-188{
+    background-image: url(../photo/venice/188.jpg);
+}
+.Img-189{
+    background-image: url(../photo/venice/189.jpg);
+}
+.Img-190{
+    background-image: url(../photo/venice/190.jpg);
+}
+.Img-191{
+    background-image: url(../photo/venice/191.jpg);
+}
+.Img-192{
+    background-image: url(../photo/venice/192.jpg);
+}
+.Img-193{
+    background-image: url(../photo/venice/193.jpg);
+}
+.Img-194{
+    background-image: url(../photo/venice/194.jpg);
+}
+.Img-195{
+    background-image: url(../photo/venice/195.jpg);
+}
+.Img-196{
+    background-image: url(../photo/venice/196.jpg);
+}
+.Img-197{
+    background-image: url(../photo/venice/197.jpg);
+}
+.Img-198{
+    background-image: url(../photo/venice/198.jpg);
+}
+.Img-199{
+    background-image: url(../photo/venice/199.jpg);
+}
+.Img-200{
+    background-image: url(../photo/venice/200.jpg);
+}
+.Img-201{
+    background-image: url(../photo/venice/201.jpg);
+}
+.Img-202{
+    background-image: url(../photo/venice/202.jpg);
+}
+.Img-203{
+    background-image: url(../photo/venice/203.jpg);
+}
+.Img-204{
+    background-image: url(../photo/venice/204.jpg);
+}
+.Img-205{
+    background-image: url(../photo/venice/205.jpg);
+}
+.Img-206{
+    background-image: url(../photo/venice/206.jpg);
+}
+.Img-207{
+    background-image: url(../photo/venice/207.jpg);
+}
+.Img-208{
+    background-image: url(../photo/venice/208.jpg);
+}
+.Img-209{
+    background-image: url(../photo/venice/209.jpg);
+}
+.Img-210{
+    background-image: url(../photo/venice/210.jpg);
+}
+.Img-211{
+    background-image: url(../photo/venice/211.jpg);
+}
+.Img-212{
+    background-image: url(../photo/venice/212.jpg);
+}
+.Img-213{
+    background-image: url(../photo/venice/213.jpg);
+}
+.Img-214{
+    background-image: url(../photo/venice/214.jpg);
+}
+.Img-215{
+    background-image: url(../photo/venice/215.jpg);
+}
+.Img-216{
+    background-image: url(../photo/venice/216.jpg);
+}
+.Img-217{
+    background-image: url(../photo/venice/217.jpg);
+}
+.Img-218{
+    background-image: url(../photo/venice/218.jpg);
+}
+.Img-219{
+    background-image: url(../photo/venice/219.jpg);
+}
+.Img-220{
+    background-image: url(../photo/venice/220.jpg);
+}
+.Img-221{
+    background-image: url(../photo/venice/221.jpg);
+}
+.Img-222{
+    background-image: url(../photo/venice/222.jpg);
+}
+.Img-223{
+    background-image: url(../photo/venice/223.jpg);
+}
+.Img-224{
+    background-image: url(../photo/venice/224.jpg);
+}
+.Img-225{
+    background-image: url(../photo/venice/225.jpg);
+}
+.Img-226{
+    background-image: url(../photo/venice/226.jpg);
+}
+.Img-227{
+    background-image: url(../photo/venice/227.jpg);
+}
+.Img-228{
+    background-image: url(../photo/venice/228.jpg);
+}
+.Img-229{
+    background-image: url(../photo/venice/229.jpg);
+}
+.Img-230{
+    background-image: url(../photo/venice/230.jpg);
+}
+.Img-231{
+    background-image: url(../photo/venice/231.jpg);
+}
+.Img-232{
+    background-image: url(../photo/venice/232.jpg);
+}
+.Img-233{
+    background-image: url(../photo/venice/233.jpg);
+}
+.Img-234{
+    background-image: url(../photo/venice/234.jpg);
+}
+.Img-235{
+    background-image: url(../photo/venice/235.jpg);
+}
+.Img-236{
+    background-image: url(../photo/venice/236.jpg);
+}
+.Img-237{
+    background-image: url(../photo/venice/237.jpg);
+}
+.Img-238{
+    background-image: url(../photo/venice/238.jpg);
+}
+.Img-239{
+    background-image: url(../photo/venice/239.jpg);
+}
+.Img-240{
+    background-image: url(../photo/venice/240.jpg);
+}
+.Img-241{
+    background-image: url(../photo/venice/241.jpg);
+}
+.Img-242{
+    background-image: url(../photo/venice/242.jpg);
+}
+.Img-243{
+    background-image: url(../photo/venice/243.jpg);
+}
+.Img-244{
+    background-image: url(../photo/venice/244.jpg);
+}
+.Img-245{
+    background-image: url(../photo/venice/245.jpg);
+}
+.Img-246{
+    background-image: url(../photo/venice/246.jpg);
+}
+.Img-247{
+    background-image: url(../photo/venice/247.jpg);
+}
+.Img-248{
+    background-image: url(../photo/venice/248.jpg);
+}
+.Img-249{
+    background-image: url(../photo/venice/249.jpg);
+}
+.Img-250{
+    background-image: url(../photo/venice/250.jpg);
+}
+.Img-251{
+    background-image: url(../photo/venice/251.jpg);
+}
+.Img-252{
+    background-image: url(../photo/venice/252.jpg);
+}
+.Img-253{
+    background-image: url(../photo/venice/253.jpg);
+}
+.Img-254{
+    background-image: url(../photo/venice/254.jpg);
+}
+.Img-255{
+    background-image: url(../photo/venice/255.jpg);
+}
+.Img-256{
+    background-image: url(../photo/venice/256.jpg);
+}
+.Img-257{
+    background-image: url(../photo/venice/257.jpg);
+}
+.Img-258{
+    background-image: url(../photo/venice/258.jpg);
+}
+.Img-259{
+    background-image: url(../photo/venice/259.jpg);
+}
+.Img-260{
+    background-image: url(../photo/venice/260.jpg);
+}
+.Img-261{
+    background-image: url(../photo/venice/261.jpg);
+}
+.Img-262{
+    background-image: url(../photo/venice/262.jpg);
+}
+.Img-263{
+    background-image: url(../photo/venice/263.jpg);
+}
+.Img-264{
+    background-image: url(../photo/venice/264.jpg);
+}
+.Img-265{
+    background-image: url(../photo/venice/265.jpg);
+}
+.Img-266{
+    background-image: url(../photo/venice/266.jpg);
+}
+.Img-267{
+    background-image: url(../photo/venice/267.jpg);
+}
+.Img-268{
+    background-image: url(../photo/venice/268.jpg);
+}
+.Img-269{
+    background-image: url(../photo/venice/269.jpg);
+}
+.Img-270{
+    background-image: url(../photo/venice/270.jpg);
+}
+.Img-271{
+    background-image: url(../photo/venice/271.jpg);
+}
+.Img-272{
+    background-image: url(../photo/venice/272.jpg);
+}
+.Img-273{
+    background-image: url(../photo/venice/273.jpg);
+}
+.Img-274{
+    background-image: url(../photo/venice/274.jpg);
+}
+.Img-275{
+    background-image: url(../photo/venice/275.jpg);
+}
+.Img-276{
+    background-image: url(../photo/venice/276.jpg);
+}
+.Img-277{
+    background-image: url(../photo/venice/277.jpg);
+}
